@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            _transform.rotation = Quaternion.Euler(new Vector3(0, _cameraTransform.rotation.eulerAngles.y, 0));  
             _iceController.SpawnIce();
         }
             
